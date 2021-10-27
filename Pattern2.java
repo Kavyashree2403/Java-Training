@@ -1,30 +1,20 @@
-package Patterns;
+package Java_Assessment;
+import java.util.*; 
+public class Pattern2 {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
 
-import java.util.Scanner;
-public class Pattern2
-{
- public static void main(String args[])
- {
-  Scanner sc=new Scanner(System.in);
-  int rows=5;
-  System.out.println("");
-  int count=rows;
-  for (int i=0; i<=rows; i++)
-  {
-  for (int j=1; j<=i*2; j++)
-  {
-    System.out.print(" ");
-  }
-  for(int j=1; j<=count; j++) 
-  {
-    System.out.print(j+" ");
-  }
-  for(int j=count-1; j>=1; j--) 
-  {
-   System.out.print(j+" ");
-  }
-   System.out.println();
-   count--;
-  }
- }
+        System.out.print("Enter height: ");
+        int h = s.nextInt();
+
+        System.out.print("Enter width: ");
+        int w = s.nextInt();
+
+        for (int i=1; i<=h; i++) {
+            for (int j=1; j<=w; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }
