@@ -12,7 +12,7 @@ public class Aemstrongnumber
 	            originalNumber /= 10;
 	        }
 
-	        if(result == number)
+	        // if(result == number)
 	            System.out.println(number + " is an Armstrong number.");
 	        else
 	            System.out.println(number + " is not an Armstrong number.");
