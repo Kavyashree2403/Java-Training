@@ -18,3 +18,4 @@ public class Aemstrongnumber
 	            System.out.println(number + " is not an Armstrong number.");
 	 }
 }
+// armstrong number in java
